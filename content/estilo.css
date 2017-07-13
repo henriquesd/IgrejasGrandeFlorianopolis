@@ -1,0 +1,763 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #005175;
+    height: 80px;
+    color: white;
+}
+
+.menuSuperior {
+    border-bottom: 3px solid #1d7082;
+}
+
+.div_normal {
+    background-color: #e9ebee;
+    color: black;
+    height: auto;
+}
+
+.div_slider {
+    background: url("../Content/img/fundos/green_dust_scratch.png");
+    color: white;
+    height: auto;
+}
+
+.div_madeira {
+    background: url("../Content/img/fundos/purty_wood.png");
+    color: white;
+    height: auto;
+}
+
+.div_papel {
+    background: url("../Content/img/fundos/lined_paper.png");
+    color: black;
+    height: auto;
+}
+
+.div_waves {
+    background: url("../Content/img/fundos/diagonal_waves.png");
+    color: black;
+    height: auto;
+}
+
+.div_colorida {
+    background-color: #528377;
+    color: white;
+    height: auto;
+}
+
+.div_brickwall {
+    background: url("../Content/img/fundos/brickwall.png");
+    color: black;
+    height: 332px;
+}
+
+.div_oquecremos {
+    background: url("../Content/img/fundos/brickwall.png");
+    color: black;
+    height: 740px;
+    display: table;
+    width: 100%;
+}
+
+.div_eventos {
+    background: url("../Content/img/fundos/green_dust_scratch.png");
+    color: black;
+    height: 630px;
+}
+
+.div_pedidoOracao {
+    background: url("../Content/img/fundos/brickwall.png");
+    color: black;
+    height: 373px;
+}
+
+.div_contato {
+    background: url("../Content/img/fundos/green_dust_scratch.png");
+    color: black;
+    height: 360px;
+}
+
+.div_localizacao {
+    background-color: #005175;
+    color: white;
+    height: auto;
+}
+
+.div_ofertas {
+    background: url("../Content/img/fundos/footer_lodyas.png");
+    color: white;
+    height: 325px;
+    background-attachment: fixed !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.div_parceiros {
+    background: url("../Content/img/fundos/brickwall.png");
+    color: black;
+    height: 240px;
+}
+
+.div_reunioes {
+    background: url("../Content/img/fundos/diagonal_waves.png");
+    color: black;
+    height: 330px;
+}
+
+.div_green_dust_scratch {
+    background: url("../Content/img/fundos/green_dust_scratch.png");
+    color: black;
+    height: 365px;
+}
+
+.div_tileable_wood_texture {
+    background: url("../Content/img/fundos/tileable_wood_texture.png");
+    color: black;
+    height: 215px;
+}
+
+.container {
+    text-align: center;
+}
+
+.jumbotron h2 {
+    text-align: center;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+#frmOracao .btn {
+    margin-top: 6px;
+}
+
+#frmContato .btn {
+    margin-top: 6px;
+}
+
+#frmOracao .textarea {
+    width: 550px;
+}
+
+.inicio {
+    display: table;
+    width: 100%;
+    height: 640px !important;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    background: url(../Content/img/fundos/beiramar.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.inicio-saojose {
+    display: table;
+    width: 100%;
+    height: 640px !important;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    background: url(../Content/img/fundos/beiramar-saojose.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.inicio-florianopolissol {
+    display: table;
+    width: 100%;
+    height: 640px !important;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    background: url(../Content/img/fundos/beiramar.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position-y: -147px !important;
+}
+
+.inicio-beiramarflorianopolis {
+    display: table;
+    width: 100%;
+    height: 640px !important;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    background: url(../Content/img/fundos/beiramarnorte.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.inicio-imagemFundo {
+    background-attachment: fixed !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 715px;
+}
+
+.inicio .inicio-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tituloInicio {
+    font-size: 45px;
+    padding-bottom: 460px;
+}
+
+
+@media (max-width: 767px) {
+    .nav li {
+        background-color: #e9ebee;
+    }
+}
+
+.botaoLogin {
+    float: left;
+    color: black;
+    text-transform: initial;
+    margin: 8px 8px 0 0;
+    padding: 6px 15px;
+    border: 2px solid #FFF;
+}
+
+.seta {
+    right: 19px;
+}
+
+
+.login-btn form {
+    padding-top: 20px;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.login-box > .login-btn .login-pop form input {
+    padding: 0 0 0 15px;
+    height: 40px;
+    width: 168px;
+    font-family: Arial, Tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #CCC;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    color: #454545;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.login-box .login-btn .login-pop form input:focus {
+    background-color: #eee;
+    color: #454545;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+input:-webkit-autofill {
+    background-color: #eee;
+    background-image: none;
+    color: #454545;
+}
+
+.login-pop form input[type=text] {
+    float: left;
+    margin-right: 11px;
+}
+
+.login-box button, .login-box input, .login-box textarea {
+    vertical-align: middle;
+}
+
+input,
+textarea,
+.uneditable-input {
+    margin-left: 0;
+}
+
+
+#inicio {
+    color: #ffffff;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Menu Drop-Down */
+
+.dropbtn {
+    background-color: #f8f8f8;
+    color: #777;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(248, 248, 248, 0.92);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f8f8f8;
+}
+
+/* //Menu Drop-Down */
+
+.setaMenuDropDown {
+    color: #777;
+    text-decoration: none !important;
+}
+
+.imagem {
+    max-width: 442px;
+    max-height: 470px;
+    width: auto;
+    height: auto;
+}
+
+
+@media (max-width: 500px) {
+    .div_inicio {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .div_oquecremos {
+        height: 800px;
+    }
+}
+
+@media (max-width: 990px) {
+    .div_oquecremos {
+        height: 870px;
+    }
+}
+
+@media (max-width: 768px) {
+    .div_oquecremos {
+        height: 890px;
+    }
+}
+
+@media (max-width: 709px) {
+    .div_oquecremos {
+        height: 896px;
+    }
+}
+
+@media (max-width: 666px) {
+    .div_oquecremos {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 615px) {
+    .div_oquecremos {
+        height: 949px;
+    }
+}
+
+@media (max-width: 599px) {
+    .div_oquecremos {
+        height: 900px;
+    }
+}
+
+@media (max-width: 558px) {
+    .div_oquecremos {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 556px) {
+    .div_oquecremos {
+        height: 1042px;
+    }
+}
+
+@media (max-width: 490px) {
+    .div_oquecremos {
+        height: 1150px;
+    }
+}
+
+@media (max-width: 434px) {
+    .div_oquecremos {
+        height: 1100px;
+    }
+}
+
+@media (max-width: 428px) {
+    .div_oquecremos {
+        height: 1290px;
+    }
+}
+
+@media (max-width: 415px) {
+    .div_oquecremos {
+        height: 1200px;
+    }
+}
+
+@media (max-width: 394px) {
+    .div_oquecremos {
+        height: 1250px;
+    }
+}
+
+@media (max-width: 388px) {
+    .div_oquecremos {
+        height: 1300px;
+    }
+}
+
+@media (max-width: 365px) {
+    .div_oquecremos {
+        height: 1350px;
+    }
+}
+
+@media (max-width: 358px) {
+    .div_oquecremos {
+        height: 1400px;
+    }
+}
+
+@media (max-width: 353px) {
+    .div_oquecremos {
+        height: 1400px;
+    }
+}
+
+#myProgress {
+    position: relative;
+    width: 100%;
+    background-color: #ddd;
+    margin-top: 2%;
+    height: 35px;
+}
+
+#myBar {
+    position: absolute;
+    width: 01%;
+    height: 100%;
+    background-color: #4CAF50;
+}
+
+
+@media (max-width: 754px) {
+    .div_ofertas {
+       height: 345px;
+    }
+}
+
+@media (max-width: 384px) {
+    .div_ofertas {
+       height: 375px;
+    }
+}
+
+
+@media (max-width: 362px) {
+    .div_ofertas {
+       height: 380px;
+    }
+}
+
+@media (max-width: 461px) {
+    .div_ofertas {
+        font-size: small;
+    }
+}
+
+@media (max-width: 629px) {
+    .div_reunioes {
+        font-size: small;
+        height: 345px;
+        font-size: smaller;
+    }
+
+    .tituloOfertas {
+        font-size: small;
+    }
+}
+
+@media (max-width: 615px) {
+    .div_localizacao {
+        font-size: smaller;
+    }
+
+    .tituloLocalizacao {
+        font-size: small;
+    }
+    
+    .localizacaoFlorianopolis{
+        height: 150px;
+    }
+    
+    .localizacaoPalhoca{
+        height: 172px;
+    }
+    
+     .localizacaoRioTavares{
+        padding-top: 22px;
+    }
+}
+
+@media (max-width: 991px) {
+      .localizacaoPalhoca
+    {
+        height: 172px;
+    }
+    
+    .localizacaoRioTavares
+    {
+        padding-top: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+     .localizacaoRioTavares{
+        padding-top: 41px;
+    }
+}
+ 
+@media (max-width: 768px) {
+    .imagem {
+           height: 398px;
+    }
+
+    .div_eventos {
+            height: 581px;
+    }
+}
+
+
+/* menu drop-down do navbar ativado em 991px */
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+/* // menu drop-down do navbar ativado em 1199px */
+
+@media (max-width: 391px) {
+    .tituloInicio {
+        font-size: 30px;
+    }
+}
+
+.scrolloff {
+    pointer-events: none;
+}
+
+.mapaLocalizacao iframe{
+	pointer-events: none;
+}
+
+.active {
+    background-color: #e7e7e7;
+}
+
+li a.active:hover {
+    background-color: #e7e7e7 !important;
+}
+
+
+.inicio-eventoJovens {
+    display: table;
+    width: 100%;
+    height: 640px !important;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    background:  url(../Content/img/fundos/capa.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.eventoJovens {
+    width: 100%;
+    height: 640px !important;
+    display: table;
+    background:  url(../Content/img/fundos/capa.jpg) no-repeat black center scroll;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+
+@media (max-width: 559px) {
+    .table>tbody>tr>td {
+        font-size: small !important;
+    }
+    #imagePagSeguro
+    {
+        width: 95%;
+    }
+}
+
+#myModal {
+    margin-top: 10%;
+}
+
+.logoIco {
+    border: 0;
+    float: left;
+    margin-right: 15px;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+@media (max-width: 990px){
+    .logoIco{
+        display: inline;
+    }
+}
+
+@media (max-width: 767px){
+    .logoIco{
+        margin-left: 3%;
+    }
+    .tituloIco{
+        padding-left: 0%;
+    }
+}
+
+@media (max-width: 549px){
+    .logoIco{
+        padding-left: 1%;
+    }
+}
+
+@media (max-width: 399px){
+    .logoIco{
+        margin-left: 3%;
+    }
+    .tituloIco{
+        font-size: larger;
+    }
+}
+
+@media (max-width: 365px){
+    .logoIco{
+        display: none;
+    }
+    .tituloIco{
+        margin-left: 5%;
+    }
+}
+
+
+.textLeft {
+    text-align: left;
+}
